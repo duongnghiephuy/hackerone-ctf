@@ -1,5 +1,5 @@
 # hackerone-ctf
-Memo for hackerone ctf
+Memo for ctf
 
 ## General techniques 
 1. Look for url. Flag may be hidden there.
