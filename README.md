@@ -6,7 +6,8 @@ Memo for hackerone ctf
 2.  Enumerate page with id parameter. There may be a page that you shouldn't have access to. (Automate to enumerate it). 
 Sign: you create a page then some ids are skipped. 
 4. Tamper input with XSS: script tag, img attribute. Stored XSS can affect other pages as well. Inspect element for flag. 
-5. SQL injection on page id (get request). Test by inserting ' or ' OR '1' = '1
+5. SQL injection on page id (get request). Test by inserting ' or ' OR '1' = '1. 
+   If there is a different response, there is a chance that SQL injection is going to work.
 6. SQL injection on input (post request). Similar test. Union strategy. 
 7. Blind SQL injection by sqlmap 
 8. Perform get, post requests that are not supposed to be accessed by your current access level.
