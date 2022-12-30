@@ -1,6 +1,8 @@
 # hackerone-ctf
 Memo for ctf
 
+Note: By pass the WAF (firewall) if necessary. Mostly yes.
+
 ## General techniques 
 1. Look for url. Flag may be hidden there.
 2.  Enumerate page with id parameter. There may be a page that you shouldn't have access to. (Automate to enumerate it). 
@@ -13,7 +15,6 @@ Sign: you create a page then some ids are skipped.
    Similar test such as insert 1+1 to see if the expression is evaluated.
    Union strategy. 
    XLM injection is also great.
-   By pass the WAF (firewall) if necessary. Mostly yes.
 7. Blind SQL injection by sqlmap 
 8. Perform get, post requests that are not supposed to be accessed by your current access level.
     Can combine with enumerating id.
