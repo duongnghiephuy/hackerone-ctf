@@ -9,6 +9,10 @@ Sign: you create a page then some ids are skipped.
 5. SQL injection on page id (get request). Test by inserting ' or ' OR '1' = '1. 
    If there is a different response, there is a chance that SQL injection is going to work.
 6. SQL injection on input (post request). Similar test. Union strategy. 
+   Post request here can be triggered from a click, scroll,...
+   Similar test such as insert 1+1 to see if the expression is evaluated.
+   Union strategy. 
+   XLM injection is also great.. 
 7. Blind SQL injection by sqlmap 
 8. Perform get, post requests that are not supposed to be accessed by your current access level.
     Can combine with enumerating id.
